@@ -24,9 +24,27 @@
     </head>
     <body>
         <Form>
-            <input type="text" placeholder="Full Name" name="name">
+            <input type="text" placeholder="Name" name="name">
+            <input name="password" type="password" placeholder="password">
+            What is your favourite colour?
+            <input name="color" type="radio" value="red">Red
+            <input name="color" type="radio" value="green">green
+            <input name="color" type="radio" value="blue">blue
+            <input name="color" type="radio" value="other">other
+            Where are you from?
+            <input name="country" list="countries" placeholder="country">
+            <datalist id="countries">
+                <option value="Afghanistan">
+                <option value="Albania">
+                <option value="Kenya">
+                <option value="Bahamas">         
+                    </option>
+
+                </option>
+            </datalist> 
             <button>Submit</button>
         </Form>
+
     <div id ="top">
         This is the <span class="name">top</span> of my webpage
         </div>
